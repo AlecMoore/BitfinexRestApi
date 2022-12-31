@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9I9NpSFDdd4OV+ltXbjDdcEiVvwQzjQ+40RvtgjY8BpYLE8G2xRzfpiJ+k6kpXAQM2pc5uGjfm31OUeyx9PcXg==",
+  "dgSpecHash": "3XXE81e1grCgLEdnYdKxW2890ip1KJ/6g57Pj9y+e0NnSY4jWgUIIBg9KOgRtCi26z+zU0dg0u6A+iICuXaWtA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\VS\\BitfinexAPI\\TestApi\\TestApi.csproj",
+  "projectFilePath": "D:\\Projects\\VS\\BitfinexRestApi\\TestApi\\TestApi.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

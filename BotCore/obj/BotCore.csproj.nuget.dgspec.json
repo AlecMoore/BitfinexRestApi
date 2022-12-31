@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\VS\\BitfinexAPI\\BotCore\\BotCore.csproj": {}
+    "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\BotCore.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\VS\\BitfinexAPI\\BitfinexApi\\BitfinexApi.csproj": {
+    "D:\\Projects\\VS\\BitfinexRestApi\\BitfinexApi\\BitfinexApi.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Projects\\VS\\BitfinexAPI\\BitfinexApi\\BitfinexApi.csproj",
+        "projectUniqueName": "D:\\Projects\\VS\\BitfinexRestApi\\BitfinexApi\\BitfinexApi.csproj",
         "projectName": "BitfinexApi",
-        "projectPath": "D:\\Projects\\VS\\BitfinexAPI\\BitfinexApi\\BitfinexApi.csproj",
+        "projectPath": "D:\\Projects\\VS\\BitfinexRestApi\\BitfinexApi\\BitfinexApi.csproj",
         "frameworks": {
           "net20": {
             "projectReferences": {}
@@ -19,14 +19,14 @@
         "net20": {}
       }
     },
-    "D:\\Projects\\VS\\BitfinexAPI\\BotCore\\BotCore.csproj": {
+    "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\BotCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\VS\\BitfinexAPI\\BotCore\\BotCore.csproj",
+        "projectUniqueName": "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\BotCore.csproj",
         "projectName": "BotCore",
-        "projectPath": "D:\\Projects\\VS\\BitfinexAPI\\BotCore\\BotCore.csproj",
+        "projectPath": "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\BotCore.csproj",
         "packagesPath": "C:\\Users\\pimnc\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\VS\\BitfinexAPI\\BotCore\\obj\\",
+        "outputPath": "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Alec's Stuff\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,8 +47,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projects\\VS\\BitfinexAPI\\BitfinexApi\\BitfinexApi.csproj": {
-                "projectPath": "D:\\Projects\\VS\\BitfinexAPI\\BitfinexApi\\BitfinexApi.csproj"
+              "D:\\Projects\\VS\\BitfinexRestApi\\BitfinexApi\\BitfinexApi.csproj": {
+                "projectPath": "D:\\Projects\\VS\\BitfinexRestApi\\BitfinexApi\\BitfinexApi.csproj"
               }
             }
           }

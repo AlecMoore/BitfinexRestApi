@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\VS\\BitfinexAPI\\TestApi\\TestApi.csproj": {}
+    "D:\\Projects\\VS\\BitfinexRestApi\\TestApi\\TestApi.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\VS\\BitfinexAPI\\TestApi\\TestApi.csproj": {
+    "D:\\Projects\\VS\\BitfinexRestApi\\TestApi\\TestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\VS\\BitfinexAPI\\TestApi\\TestApi.csproj",
+        "projectUniqueName": "D:\\Projects\\VS\\BitfinexRestApi\\TestApi\\TestApi.csproj",
         "projectName": "TestApi",
-        "projectPath": "D:\\Projects\\VS\\BitfinexAPI\\TestApi\\TestApi.csproj",
+        "projectPath": "D:\\Projects\\VS\\BitfinexRestApi\\TestApi\\TestApi.csproj",
         "packagesPath": "C:\\Users\\pimnc\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\VS\\BitfinexAPI\\TestApi\\obj\\",
+        "outputPath": "D:\\Projects\\VS\\BitfinexRestApi\\TestApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Alec's Stuff\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lzjsbN23pj65NhJux9rn/8dduxhGpG42ylht42NiLWpAqKjVyaD/xaxkQF3aiFw2SBlEptg3dbpRp8oT5PuOrg==",
+  "dgSpecHash": "rl8vORClF0yxt31atanZ3dEsNMXXfFkySl0qU7vcveG92xx4mcenMRB91d3HaE4WAA75AkB5gE58eezAUClrog==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\VS\\BitfinexAPI\\BotCore\\BotCore.csproj",
+  "projectFilePath": "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\BotCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pimnc\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",
     "C:\\Users\\pimnc\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.0.4\\microsoft.extensions.dependencymodel.2.0.4.nupkg.sha512",

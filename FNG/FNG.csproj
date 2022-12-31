@@ -10,7 +10,6 @@
   <ItemGroup>
     <ProjectReference Include="..\BitfinexApi\BitfinexApi.csproj" />
     <ProjectReference Include="..\BotCore\BotCore.csproj" />
-    <ProjectReference Include="..\Core\BotCore.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">

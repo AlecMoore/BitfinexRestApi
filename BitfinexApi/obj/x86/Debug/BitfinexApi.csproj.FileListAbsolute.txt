@@ -14,3 +14,12 @@ D:\Projects\VS\BitfinexAPI\BitfinexApi\obj\x86\Debug\BitfinexApi.csproj.CoreComp
 D:\Projects\VS\BitfinexAPI\BitfinexApi\obj\x86\Debug\BitfinexApi.csproj.CopyComplete
 D:\Projects\VS\BitfinexAPI\BitfinexApi\obj\x86\Debug\BitfinexApi.dll
 D:\Projects\VS\BitfinexAPI\BitfinexApi\obj\x86\Debug\BitfinexApi.pdb
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\bin\Debug\BitfinexApi.dll
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\bin\Debug\BitfinexApi.pdb
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\obj\x86\Debug\BitfinexApi.csproj.AssemblyReference.cache
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\obj\x86\Debug\BitfinexApi.csproj.CoreCompileInputs.cache
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\obj\x86\Debug\BitfinexApi.csproj.CopyComplete
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\obj\x86\Debug\BitfinexApi.dll
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\obj\x86\Debug\BitfinexApi.pdb
