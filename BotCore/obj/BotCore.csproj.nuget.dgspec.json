@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\VS\\BitfinexAPI\\BotCore\\BotCore.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\VS\\BitfinexAPI\\BitfinexApi\\BitfinexApi.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\VS\\BitfinexAPI\\BitfinexApi\\BitfinexApi.csproj",
+        "projectName": "BitfinexApi",
+        "projectPath": "D:\\Projects\\VS\\BitfinexAPI\\BitfinexApi\\BitfinexApi.csproj",
+        "frameworks": {
+          "net20": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net20": {}
+      }
+    },
+    "D:\\Projects\\VS\\BitfinexAPI\\BotCore\\BotCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\VS\\BitfinexAPI\\BotCore\\BotCore.csproj",
+        "projectName": "BotCore",
+        "projectPath": "D:\\Projects\\VS\\BitfinexAPI\\BotCore\\BotCore.csproj",
+        "packagesPath": "C:\\Users\\pimnc\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\VS\\BitfinexAPI\\BotCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Alec's Stuff\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pimnc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\VS\\BitfinexAPI\\BitfinexApi\\BitfinexApi.csproj": {
+                "projectPath": "D:\\Projects\\VS\\BitfinexAPI\\BitfinexApi\\BitfinexApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
