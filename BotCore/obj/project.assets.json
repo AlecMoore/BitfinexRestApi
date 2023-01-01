@@ -3997,9 +3997,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alec\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\pimnc\\.nuget\\packages\\": {},
+    "D:\\Alec's Stuff\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4007,18 +4006,16 @@
       "projectUniqueName": "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\BotCore.csproj",
       "projectName": "BotCore",
       "projectPath": "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\BotCore.csproj",
-      "packagesPath": "C:\\Users\\Alec\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\pimnc\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "D:\\Alec's Stuff\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pimnc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -4071,7 +4068,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },
