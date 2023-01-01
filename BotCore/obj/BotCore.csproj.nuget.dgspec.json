@@ -4,37 +4,24 @@
     "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\BotCore.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\VS\\BitfinexRestApi\\BitfinexApi\\BitfinexApi.csproj": {
-      "restore": {
-        "projectUniqueName": "D:\\Projects\\VS\\BitfinexRestApi\\BitfinexApi\\BitfinexApi.csproj",
-        "projectName": "BitfinexApi",
-        "projectPath": "D:\\Projects\\VS\\BitfinexRestApi\\BitfinexApi\\BitfinexApi.csproj",
-        "frameworks": {
-          "net20": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net20": {}
-      }
-    },
     "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\BotCore.csproj": {
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\BotCore.csproj",
         "projectName": "BotCore",
         "projectPath": "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\BotCore.csproj",
-        "packagesPath": "C:\\Users\\pimnc\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Alec\\.nuget\\packages\\",
         "outputPath": "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Alec's Stuff\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\pimnc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -46,11 +33,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "D:\\Projects\\VS\\BitfinexRestApi\\BitfinexApi\\BitfinexApi.csproj": {
-                "projectPath": "D:\\Projects\\VS\\BitfinexRestApi\\BitfinexApi\\BitfinexApi.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -63,6 +46,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Bitfinex.Net.Core": {
+              "target": "Package",
+              "version": "[5.1.5, )"
+            },
             "Nancy": {
               "target": "Package",
               "version": "[2.0.0, )"
@@ -87,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

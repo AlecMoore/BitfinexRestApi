@@ -1,0 +1,9 @@
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\bin\Debug\BitfinexApi.dll
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\bin\Debug\BitfinexApi.pdb
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\obj\Debug\BitfinexApi.csproj.AssemblyReference.cache
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\obj\Debug\BitfinexApi.csproj.CoreCompileInputs.cache
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\obj\Debug\BitfinexApi.csproj.CopyComplete
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\obj\Debug\BitfinexApi.dll
+D:\Projects\VS\BitfinexRestApi\BitfinexApi\obj\Debug\BitfinexApi.pdb

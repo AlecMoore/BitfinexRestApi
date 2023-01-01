@@ -1,5 +1,0 @@
-D:\Projects\VS\BitfinexAPI\Core\obj\Debug\net6.0\BotCore.csproj.AssemblyReference.cache
-D:\Projects\VS\BitfinexAPI\Core\obj\Debug\net6.0\BotCore.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projects\VS\BitfinexAPI\Core\obj\Debug\net6.0\BotCore.AssemblyInfoInputs.cache
-D:\Projects\VS\BitfinexAPI\Core\obj\Debug\net6.0\BotCore.AssemblyInfo.cs
-D:\Projects\VS\BitfinexAPI\Core\obj\Debug\net6.0\BotCore.csproj.CoreCompileInputs.cache
