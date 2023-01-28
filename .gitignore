@@ -37,3 +37,5 @@ BotCore/obj/Debug/net6.0/BotCore.GeneratedMSBuildEditorConfig.editorconfig
 PositionCalculator/obj/Debug/net6.0/apphost.exe
 PositionCalculator/obj/Debug/net6.0/PositionCalculator.csproj.AssemblyReference.cache
 PositionCalculator/obj/Debug/net6.0/PositionCalculator.GeneratedMSBuildEditorConfig.editorconfig
+.vs/BitfinexApi/v17/.suo
+.vs/BitfinexApi/FileContentIndex/1749d888-8c1c-41de-90cf-43efd1d1e8fa.vsidx
