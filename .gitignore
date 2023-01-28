@@ -31,3 +31,9 @@ BotCore/obj/BotCore.csproj.nuget.dgspec.json
 .vs/BitfinexApi/FileContentIndex/26b35c53-7d08-41bd-ae9d-007dd1caac96.vsidx
 .vs/BitfinexApi/FileContentIndex/0c10a037-64ee-4d2b-941a-a90211733dd4.vsidx
 .vs/BitfinexApi/DesignTimeBuild/.dtbcache.v2
+.vs/BitfinexApi/FileContentIndex/bb1bd56e-dd39-494c-9b84-b6212b370cba.vsidx
+BotCore/obj/Debug/net6.0/BotCore.csproj.AssemblyReference.cache
+BotCore/obj/Debug/net6.0/BotCore.GeneratedMSBuildEditorConfig.editorconfig
+PositionCalculator/obj/Debug/net6.0/apphost.exe
+PositionCalculator/obj/Debug/net6.0/PositionCalculator.csproj.AssemblyReference.cache
+PositionCalculator/obj/Debug/net6.0/PositionCalculator.GeneratedMSBuildEditorConfig.editorconfig
