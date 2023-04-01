@@ -18,9 +18,9 @@ namespace PositionCalculator
         public double buyAmountCrypto { get; set; }
         public Exchange exchange { get; set; }
 
-        public Coin(string geckoName, string bitfinexName, double units, double targetPercentage, Exchange exchange)
+        public Coin(string geckoName, string ApiCoinName, double units, double targetPercentage, Exchange exchange)
         {
-            this.names = new Names(geckoName, bitfinexName);
+            this.names = new Names(geckoName, ApiCoinName);
             this.units = units;
             this.targetPercentage = targetPercentage;
             this.exchange = exchange;
@@ -40,12 +40,12 @@ namespace PositionCalculator
         public class Names
         {
             public string GeckoName { get; set; }
-            public string BitfinexName { get; set; }
+            public string ApiCoinName { get; set; }
 
-            public Names(string geckoName, string bitfinexName)
+            public Names(string geckoName, string apiCoinName)
             {
                 GeckoName = geckoName;
-                BitfinexName = bitfinexName;
+                ApiCoinName = apiCoinName;
             }
         }
     }

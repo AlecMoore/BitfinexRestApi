@@ -25,3 +25,6 @@ D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\Microsoft.Ext
 D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
 D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\Nancy.dll
 D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\Io.Gate.GateApi.dll
+D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\JsonSubTypes.dll
+D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\RestSharp.dll

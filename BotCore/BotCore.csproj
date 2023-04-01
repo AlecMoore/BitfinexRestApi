@@ -9,8 +9,9 @@
 
   <ItemGroup>
     <PackageReference Include="Bitfinex.Net.Core" Version="5.1.5" />
+    <PackageReference Include="Io.Gate.GateApi" Version="4.40.0" />
     <PackageReference Include="Nancy" Version="2.0.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Bitfinex.Net.Core" Version="5.1.5" />
+    <PackageReference Include="Io.Gate.GateApi" Version="4.40.0" />
     <PackageReference Include="Nancy" Version="2.0.0" />
   </ItemGroup>
 

@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\Projects\\VS\\BitfinexRestApi\\PositionCalculator\\PositionCalculator.csproj",
         "projectName": "PositionCalculator",
         "projectPath": "D:\\Projects\\VS\\BitfinexRestApi\\PositionCalculator\\PositionCalculator.csproj",
-        "packagesPath": "C:\\Users\\pimnc\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Alec\\.nuget\\packages\\",
         "outputPath": "D:\\Projects\\VS\\BitfinexRestApi\\PositionCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Alec's Stuff\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pimnc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[5.1.5, )"
             },
+            "Io.Gate.GateApi": {
+              "target": "Package",
+              "version": "[4.40.0, )"
+            },
             "Nancy": {
               "target": "Package",
               "version": "[2.0.0, )"
@@ -59,7 +63,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -68,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
