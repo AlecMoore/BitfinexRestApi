@@ -14,7 +14,6 @@ D:\Projects\VS\BitfinexRestApi\PositionCalculator\obj\Debug\net6.0\PositionCalcu
 D:\Projects\VS\BitfinexRestApi\PositionCalculator\obj\Debug\net6.0\PositionCalculator.genruntimeconfig.cache
 D:\Projects\VS\BitfinexRestApi\PositionCalculator\obj\Debug\net6.0\ref\PositionCalculator.dll
 D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\PositionCalculator.dll
-D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\NugetOrgDev.dll
 D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\Bitfinex.Net.dll
 D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\Crc32.NET.dll
 D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\CryptoExchange.Net.dll
@@ -28,3 +27,4 @@ D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\Newtonsoft.Js
 D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\Io.Gate.GateApi.dll
 D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\JsonSubTypes.dll
 D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\RestSharp.dll
+D:\Projects\VS\BitfinexRestApi\PositionCalculator\bin\Debug\net6.0\Binance.Net.dll

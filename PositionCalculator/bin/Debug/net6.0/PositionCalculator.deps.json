@@ -8,38 +8,36 @@
     ".NETCoreApp,Version=v6.0": {
       "PositionCalculator/1.0.0": {
         "dependencies": {
-          "Bitfinex.Net.Core": "5.1.5",
-          "Io.Gate.GateApi": "4.40.0",
+          "Binance.Net": "8.6.3",
+          "Bitfinex.Net": "5.2.0",
+          "Io.Gate.GateApi": "4.45.0",
           "Nancy": "2.0.0"
         },
         "runtime": {
           "PositionCalculator.dll": {}
         }
       },
-      "Avalon-Net-Core/7.0.3": {
+      "Binance.Net/8.6.3": {
+        "dependencies": {
+          "CryptoExchange.Net": "5.4.3"
+        },
         "runtime": {
-          "lib/net48/NugetOrgDev.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "lib/netstandard2.1/Binance.Net.dll": {
+            "assemblyVersion": "8.6.3.0",
+            "fileVersion": "8.6.3.0"
           }
         }
       },
-      "Bitfinex.Net/5.1.0": {
+      "Bitfinex.Net/5.2.0": {
         "dependencies": {
           "Crc32.NET": "1.2.0",
-          "CryptoExchange.Net": "5.3.0"
+          "CryptoExchange.Net": "5.4.3"
         },
         "runtime": {
           "lib/netstandard2.1/Bitfinex.Net.dll": {
-            "assemblyVersion": "5.1.0.0",
-            "fileVersion": "5.1.0.0"
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.0"
           }
-        }
-      },
-      "Bitfinex.Net.Core/5.1.5": {
-        "dependencies": {
-          "Avalon-Net-Core": "7.0.3",
-          "Bitfinex.Net": "5.1.0"
         }
       },
       "Crc32.NET/1.2.0": {
@@ -53,7 +51,7 @@
           }
         }
       },
-      "CryptoExchange.Net/5.3.0": {
+      "CryptoExchange.Net/5.4.3": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.0",
@@ -61,12 +59,12 @@
         },
         "runtime": {
           "lib/netstandard2.1/CryptoExchange.Net.dll": {
-            "assemblyVersion": "5.3.0.0",
-            "fileVersion": "5.3.0.0"
+            "assemblyVersion": "5.4.3.0",
+            "fileVersion": "5.4.3.0"
           }
         }
       },
-      "Io.Gate.GateApi/4.40.0": {
+      "Io.Gate.GateApi/4.45.0": {
         "dependencies": {
           "JsonSubTypes": "1.5.2",
           "Newtonsoft.Json": "13.0.1",
@@ -651,26 +649,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Avalon-Net-Core/7.0.3": {
+    "Binance.Net/8.6.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uAFtahDLgadG52435DRUCLfhYpuXalE9vaCkGS7L9wbdVqdqrLUCNFPNkGqVIoPOtn+Ll8aGkBShmd4AxbZa1w==",
-      "path": "avalon-net-core/7.0.3",
-      "hashPath": "avalon-net-core.7.0.3.nupkg.sha512"
+      "sha512": "sha512-/hLJy2TBLgowNPaHn4Q1M8+sio9OfrR82l9O5RLmeSVrgHFwmHEy4m3TXASZUVVE77v0cqvm0nZCvNOW4sp6xA==",
+      "path": "binance.net/8.6.3",
+      "hashPath": "binance.net.8.6.3.nupkg.sha512"
     },
-    "Bitfinex.Net/5.1.0": {
+    "Bitfinex.Net/5.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UQNtReAtSAzCPoFp0S+YeQoVV3nMGt8VphCvTwtq6D/2v/igI1LNOlZCYMaaYYwJRtHVfERIi9AiE9iUnMWkjw==",
-      "path": "bitfinex.net/5.1.0",
-      "hashPath": "bitfinex.net.5.1.0.nupkg.sha512"
-    },
-    "Bitfinex.Net.Core/5.1.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-me5FrfBCAic7YCmFSWMmp7SHljw7ILk3cMx+g+vUF/zFcLXvKGQsrq+HR+jGBhVDYtqAuztir6AG3l7wk+kqaA==",
-      "path": "bitfinex.net.core/5.1.5",
-      "hashPath": "bitfinex.net.core.5.1.5.nupkg.sha512"
+      "sha512": "sha512-43lUyaDHI0woew+u/yPXUSG1QYNQgGjltRgqwzTlBA9Uki1OZclShmi+LmSkD20ZkWLP+9MC/mhq94d5rcllwQ==",
+      "path": "bitfinex.net/5.2.0",
+      "hashPath": "bitfinex.net.5.2.0.nupkg.sha512"
     },
     "Crc32.NET/1.2.0": {
       "type": "package",
@@ -679,19 +670,19 @@
       "path": "crc32.net/1.2.0",
       "hashPath": "crc32.net.1.2.0.nupkg.sha512"
     },
-    "CryptoExchange.Net/5.3.0": {
+    "CryptoExchange.Net/5.4.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aQI/+ImbDjPrd4Y+1ewANju9QQdUhqsg3Bk+0mF0YM7+hzxLuimI3u8Y8Ue2M75sP4DUvdAAessfCd83fjEuPw==",
-      "path": "cryptoexchange.net/5.3.0",
-      "hashPath": "cryptoexchange.net.5.3.0.nupkg.sha512"
+      "sha512": "sha512-k30y4J1jMjxyR+oOXohNyi41t7xqhGkUGh8ufCUrRlyYDG019PAqxSLH8WUyjYVbgG//LBMo/v6GbmmK5xrMKg==",
+      "path": "cryptoexchange.net/5.4.3",
+      "hashPath": "cryptoexchange.net.5.4.3.nupkg.sha512"
     },
-    "Io.Gate.GateApi/4.40.0": {
+    "Io.Gate.GateApi/4.45.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Dbzw7QvezMA9A0sO3JqEUJcllPaye2R7viP17nGQC3+Lr94eHdTe7eMXtt9G7mLQZ/LV9TMgZ8u7nz8uidHfwg==",
-      "path": "io.gate.gateapi/4.40.0",
-      "hashPath": "io.gate.gateapi.4.40.0.nupkg.sha512"
+      "sha512": "sha512-dgMu06NE4ARjUqQDmjU9uvAIiPc3ZsNAwiNJUOpmrBFDSt6Wuve6fUG4fbjsVXh214qQL7f7eaoWzyGmz0LOPA==",
+      "path": "io.gate.gateapi/4.45.0",
+      "hashPath": "io.gate.gateapi.4.45.0.nupkg.sha512"
     },
     "JsonSubTypes/1.5.2": {
       "type": "package",

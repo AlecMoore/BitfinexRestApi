@@ -22,7 +22,7 @@
 
 //        private static void setUp()
 //        {
-//            api = new BitfinexApiV1("cVEc61LYLYUtXFxpSf668FuST5m5WfXRkx2M7xgbq4H", "bBqKbdGFT8YVRSvTNBVMPaGaPaBJuq5ZEfbacU97BSH");
+//            api = new BitfinexApiV1("", "");
 //        }
 
 //        private static async Task fngBotAsync()

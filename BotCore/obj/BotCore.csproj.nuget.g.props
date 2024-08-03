@@ -13,8 +13,4 @@
     <SourceRoot Include="C:\Users\Alec\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
-  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgAvalon-Net-Core Condition=" '$(PkgAvalon-Net-Core)' == '' ">C:\Users\Alec\.nuget\packages\avalon-net-core\7.0.3</PkgAvalon-Net-Core>
-    <PkgBitfinex_Net_Core Condition=" '$(PkgBitfinex_Net_Core)' == '' ">C:\Users\Alec\.nuget\packages\bitfinex.net.core\5.1.5</PkgBitfinex_Net_Core>
-  </PropertyGroup>
 </Project>

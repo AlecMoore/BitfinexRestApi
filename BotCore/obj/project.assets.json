@@ -2,20 +2,27 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Avalon-Net-Core/7.0.3": {
+      "Binance.Net/8.6.3": {
         "type": "package",
+        "dependencies": {
+          "CryptoExchange.Net": "5.4.3"
+        },
         "compile": {
-          "lib/net48/NugetOrgDev.dll": {}
+          "lib/netstandard2.1/Binance.Net.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net48/NugetOrgDev.dll": {}
+          "lib/netstandard2.1/Binance.Net.dll": {
+            "related": ".xml"
+          }
         }
       },
-      "Bitfinex.Net/5.1.0": {
+      "Bitfinex.Net/5.2.0": {
         "type": "package",
         "dependencies": {
           "Crc32.NET": "1.2.0",
-          "CryptoExchange.Net": "5.3.0"
+          "CryptoExchange.Net": "5.4.3"
         },
         "compile": {
           "lib/netstandard2.1/Bitfinex.Net.dll": {
@@ -26,19 +33,6 @@
           "lib/netstandard2.1/Bitfinex.Net.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Bitfinex.Net.Core/5.1.5": {
-        "type": "package",
-        "dependencies": {
-          "Avalon-Net-Core": "7.0.3",
-          "Bitfinex.Net": "5.1.0"
-        },
-        "compile": {
-          "lib/net48/NugetOrgDev.dll": {}
-        },
-        "runtime": {
-          "lib/net48/NugetOrgDev.dll": {}
         }
       },
       "Crc32.NET/1.2.0": {
@@ -57,7 +51,7 @@
           }
         }
       },
-      "CryptoExchange.Net/5.3.0": {
+      "CryptoExchange.Net/5.4.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
@@ -75,7 +69,7 @@
           }
         }
       },
-      "Io.Gate.GateApi/4.40.0": {
+      "Io.Gate.GateApi/4.45.0": {
         "type": "package",
         "dependencies": {
           "JsonSubTypes": "1.5.2",
@@ -1115,52 +1109,36 @@
     }
   },
   "libraries": {
-    "Avalon-Net-Core/7.0.3": {
-      "sha512": "uAFtahDLgadG52435DRUCLfhYpuXalE9vaCkGS7L9wbdVqdqrLUCNFPNkGqVIoPOtn+Ll8aGkBShmd4AxbZa1w==",
+    "Binance.Net/8.6.3": {
+      "sha512": "/hLJy2TBLgowNPaHn4Q1M8+sio9OfrR82l9O5RLmeSVrgHFwmHEy4m3TXASZUVVE77v0cqvm0nZCvNOW4sp6xA==",
       "type": "package",
-      "path": "avalon-net-core/7.0.3",
-      "hasTools": true,
+      "path": "binance.net/8.6.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "avalon-net-core.7.0.3.nupkg.sha512",
-        "avalon-net-core.nuspec",
-        "docs/readme.md",
-        "image_proxy.png",
-        "lib/net48/NugetOrgDev.dll",
-        "tools/install.ps1"
+        "binance.net.8.6.3.nupkg.sha512",
+        "binance.net.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Binance.Net.dll",
+        "lib/netstandard2.0/Binance.Net.xml",
+        "lib/netstandard2.1/Binance.Net.dll",
+        "lib/netstandard2.1/Binance.Net.xml"
       ]
     },
-    "Bitfinex.Net/5.1.0": {
-      "sha512": "UQNtReAtSAzCPoFp0S+YeQoVV3nMGt8VphCvTwtq6D/2v/igI1LNOlZCYMaaYYwJRtHVfERIi9AiE9iUnMWkjw==",
+    "Bitfinex.Net/5.2.0": {
+      "sha512": "43lUyaDHI0woew+u/yPXUSG1QYNQgGjltRgqwzTlBA9Uki1OZclShmi+LmSkD20ZkWLP+9MC/mhq94d5rcllwQ==",
       "type": "package",
-      "path": "bitfinex.net/5.1.0",
+      "path": "bitfinex.net/5.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "bitfinex.net.5.1.0.nupkg.sha512",
+        "bitfinex.net.5.2.0.nupkg.sha512",
         "bitfinex.net.nuspec",
         "icon.png",
         "lib/netstandard2.0/Bitfinex.Net.dll",
         "lib/netstandard2.0/Bitfinex.Net.xml",
         "lib/netstandard2.1/Bitfinex.Net.dll",
         "lib/netstandard2.1/Bitfinex.Net.xml"
-      ]
-    },
-    "Bitfinex.Net.Core/5.1.5": {
-      "sha512": "me5FrfBCAic7YCmFSWMmp7SHljw7ILk3cMx+g+vUF/zFcLXvKGQsrq+HR+jGBhVDYtqAuztir6AG3l7wk+kqaA==",
-      "type": "package",
-      "path": "bitfinex.net.core/5.1.5",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "bitfinex.net.core.5.1.5.nupkg.sha512",
-        "bitfinex.net.core.nuspec",
-        "docs/readme.md",
-        "image_proxy.png",
-        "lib/net48/NugetOrgDev.dll",
-        "tools/install.ps1"
       ]
     },
     "Crc32.NET/1.2.0": {
@@ -1180,14 +1158,14 @@
         "lib/netstandard2.0/Crc32.NET.xml"
       ]
     },
-    "CryptoExchange.Net/5.3.0": {
-      "sha512": "aQI/+ImbDjPrd4Y+1ewANju9QQdUhqsg3Bk+0mF0YM7+hzxLuimI3u8Y8Ue2M75sP4DUvdAAessfCd83fjEuPw==",
+    "CryptoExchange.Net/5.4.3": {
+      "sha512": "k30y4J1jMjxyR+oOXohNyi41t7xqhGkUGh8ufCUrRlyYDG019PAqxSLH8WUyjYVbgG//LBMo/v6GbmmK5xrMKg==",
       "type": "package",
-      "path": "cryptoexchange.net/5.3.0",
+      "path": "cryptoexchange.net/5.4.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "cryptoexchange.net.5.3.0.nupkg.sha512",
+        "cryptoexchange.net.5.4.3.nupkg.sha512",
         "cryptoexchange.net.nuspec",
         "lib/netstandard2.0/CryptoExchange.Net.dll",
         "lib/netstandard2.0/CryptoExchange.Net.xml",
@@ -1195,14 +1173,14 @@
         "lib/netstandard2.1/CryptoExchange.Net.xml"
       ]
     },
-    "Io.Gate.GateApi/4.40.0": {
-      "sha512": "Dbzw7QvezMA9A0sO3JqEUJcllPaye2R7viP17nGQC3+Lr94eHdTe7eMXtt9G7mLQZ/LV9TMgZ8u7nz8uidHfwg==",
+    "Io.Gate.GateApi/4.45.0": {
+      "sha512": "dgMu06NE4ARjUqQDmjU9uvAIiPc3ZsNAwiNJUOpmrBFDSt6Wuve6fUG4fbjsVXh214qQL7f7eaoWzyGmz0LOPA==",
       "type": "package",
-      "path": "io.gate.gateapi/4.40.0",
+      "path": "io.gate.gateapi/4.45.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "io.gate.gateapi.4.40.0.nupkg.sha512",
+        "io.gate.gateapi.4.45.0.nupkg.sha512",
         "io.gate.gateapi.nuspec",
         "lib/netstandard2.0/Io.Gate.GateApi.dll",
         "lib/netstandard2.0/Io.Gate.GateApi.xml"
@@ -4305,8 +4283,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Bitfinex.Net.Core >= 5.1.5",
-      "Io.Gate.GateApi >= 4.40.0",
+      "Binance.Net >= 8.6.3",
+      "Bitfinex.Net >= 5.2.0",
+      "Io.Gate.GateApi >= 4.45.0",
       "Nancy >= 2.0.0",
       "Newtonsoft.Json >= 13.0.3"
     ]
@@ -4355,13 +4334,17 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Bitfinex.Net.Core": {
+          "Binance.Net": {
             "target": "Package",
-            "version": "[5.1.5, )"
+            "version": "[8.6.3, )"
+          },
+          "Bitfinex.Net": {
+            "target": "Package",
+            "version": "[5.2.0, )"
           },
           "Io.Gate.GateApi": {
             "target": "Package",
-            "version": "[4.40.0, )"
+            "version": "[4.45.0, )"
           },
           "Nancy": {
             "target": "Package",
@@ -4391,27 +4374,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Avalon-Net-Core 7.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Avalon-Net-Core",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Bitfinex.Net.Core 5.1.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Bitfinex.Net.Core",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

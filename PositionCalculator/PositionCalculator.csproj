@@ -8,8 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Bitfinex.Net.Core" Version="5.1.5" />
-    <PackageReference Include="Io.Gate.GateApi" Version="4.40.0" />
+    <PackageReference Include="Binance.Net" Version="8.6.3" />
+    <PackageReference Include="Bitfinex.Net" Version="5.2.0" />
+    <PackageReference Include="Io.Gate.GateApi" Version="4.45.0" />
     <PackageReference Include="Nancy" Version="2.0.0" />
   </ItemGroup>
 

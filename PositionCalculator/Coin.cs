@@ -34,7 +34,8 @@ namespace PositionCalculator
             Kraken,
             CakeDefi,
             CoinCorner,
-            Nexo
+            Nexo,
+            Binance
         }
 
         public class Names

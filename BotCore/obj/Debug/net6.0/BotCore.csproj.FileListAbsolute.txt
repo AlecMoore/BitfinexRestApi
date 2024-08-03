@@ -65,9 +65,12 @@ D:\Projects\VS\BitfinexRestApi\BotCore\obj\Debug\net6.0\refint\BotCore.dll
 D:\Projects\VS\BitfinexRestApi\BotCore\obj\Debug\net6.0\BotCore.pdb
 D:\Projects\VS\BitfinexRestApi\BotCore\obj\Debug\net6.0\BotCore.genruntimeconfig.cache
 D:\Projects\VS\BitfinexRestApi\BotCore\obj\Debug\net6.0\ref\BotCore.dll
-D:\Projects\VS\BitfinexRestApi\BotCore\bin\Debug\net6.0\NugetOrgDev.dll
 D:\Projects\VS\BitfinexRestApi\BotCore\bin\Debug\net6.0\Bitfinex.Net.dll
 D:\Projects\VS\BitfinexRestApi\BotCore\bin\Debug\net6.0\Crc32.NET.dll
 D:\Projects\VS\BitfinexRestApi\BotCore\bin\Debug\net6.0\CryptoExchange.Net.dll
 D:\Projects\VS\BitfinexRestApi\BotCore\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Projects\VS\BitfinexRestApi\BotCore\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\VS\BitfinexRestApi\BotCore\bin\Debug\net6.0\Binance.Net.dll
+D:\Projects\VS\BitfinexRestApi\BotCore\bin\Debug\net6.0\Io.Gate.GateApi.dll
+D:\Projects\VS\BitfinexRestApi\BotCore\bin\Debug\net6.0\JsonSubTypes.dll
+D:\Projects\VS\BitfinexRestApi\BotCore\bin\Debug\net6.0\RestSharp.dll

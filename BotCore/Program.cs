@@ -14,7 +14,7 @@ namespace BotCore
         {
             bitfinexClient = new BitfinexClient(new BitfinexClientOptions()
             {
-                ApiCredentials = new ApiCredentials("cVEc61LYLYUtXFxpSf668FuST5m5WfXRkx2M7xgbq4H", "bBqKbdGFT8YVRSvTNBVMPaGaPaBJuq5ZEfbacU97BSH"),
+                ApiCredentials = new ApiCredentials("", ""),
                 LogLevel = LogLevel.Trace
                 //RequestTimeout = TimeSpan.FromSeconds(60)
             });
@@ -35,7 +35,6 @@ namespace BotCore
                 OrderType.ExchangeMarket,
                 0.00006m,
                 0);
-            var wank = "wank";
         }
     }
 }

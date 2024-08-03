@@ -1,15 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "HQ0l4gu+/doExD8gr+/2Wby/L70PaifR4twiFh9Qc2Rc4bbwLxA/u21WgamSexh1S7A1r8Uuo/vqH7f7Vt6Mrg==",
+  "dgSpecHash": "Wh3GK7kXuojzULVuckJyiEj4SJEYi7F8IAO8CQojiKRyn9av1G/JoT6ykdSx5MhdgT0hbMEkinZfH6EL7NhXDA==",
   "success": true,
   "projectFilePath": "D:\\Projects\\VS\\BitfinexRestApi\\BotCore\\BotCore.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Alec\\.nuget\\packages\\avalon-net-core\\7.0.3\\avalon-net-core.7.0.3.nupkg.sha512",
-    "C:\\Users\\Alec\\.nuget\\packages\\bitfinex.net\\5.1.0\\bitfinex.net.5.1.0.nupkg.sha512",
-    "C:\\Users\\Alec\\.nuget\\packages\\bitfinex.net.core\\5.1.5\\bitfinex.net.core.5.1.5.nupkg.sha512",
+    "C:\\Users\\Alec\\.nuget\\packages\\binance.net\\8.6.3\\binance.net.8.6.3.nupkg.sha512",
+    "C:\\Users\\Alec\\.nuget\\packages\\bitfinex.net\\5.2.0\\bitfinex.net.5.2.0.nupkg.sha512",
     "C:\\Users\\Alec\\.nuget\\packages\\crc32.net\\1.2.0\\crc32.net.1.2.0.nupkg.sha512",
-    "C:\\Users\\Alec\\.nuget\\packages\\cryptoexchange.net\\5.3.0\\cryptoexchange.net.5.3.0.nupkg.sha512",
-    "C:\\Users\\Alec\\.nuget\\packages\\io.gate.gateapi\\4.40.0\\io.gate.gateapi.4.40.0.nupkg.sha512",
+    "C:\\Users\\Alec\\.nuget\\packages\\cryptoexchange.net\\5.4.3\\cryptoexchange.net.5.4.3.nupkg.sha512",
+    "C:\\Users\\Alec\\.nuget\\packages\\io.gate.gateapi\\4.45.0\\io.gate.gateapi.4.45.0.nupkg.sha512",
     "C:\\Users\\Alec\\.nuget\\packages\\jsonsubtypes\\1.5.2\\jsonsubtypes.1.5.2.nupkg.sha512",
     "C:\\Users\\Alec\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",
     "C:\\Users\\Alec\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.0\\microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512",
@@ -71,26 +70,5 @@
     "C:\\Users\\Alec\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Alec\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Avalon-Net-Core 7.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Avalon-Net-Core",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Bitfinex.Net.Core 5.1.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Bitfinex.Net.Core",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }
